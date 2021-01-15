@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+    <meta charset="UTF-8">
+    <title>example 23</title>   
+     
+        <style>
+.grid-container {
+   
+  display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100px 200px 300px;
+  background-color: DodgerBlue;    
+}
+       
+.grid-container>div {
+background-color: greenyellow;
+border: 2px solid red;
+color:blue;    
+text-align: center;                
+}
+            
+.child2 {
+grid-row-start:1;
+grid-row-end: 3;
+}
+            
+</style>
+</head>
+<body>
+
+<div class="grid-container">
+      
+      <div class="child2"><h4>child 2</h4></div>
+      <div><h4>child 3</h4></div>
+      <div><h4>child 4</h4></div>
+      <div><h4>child 5</h4></div>
+      <div><h4>child 6</h4></div>
+      <div><h4>child 7</h4></div>
+      <div><h4>child 8</h4></div>
+      <div><h4>child 9</h4></div>  
+</div>
+</body>
+</html>

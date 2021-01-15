@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+    <meta charset="UTF-8">
+    <title>example 18</title>   
+     
+        <style>
+.flex-container {
+width:800px;    
+  display: flex;
+  background-color: DodgerBlue;
+flex-direction: row;
+    
+}
+    
+.flex-container>div {
+  background-color: greenyellow;
+  width:250px;
+  font-size: 30px;
+color:blue;    
+}
+
+.flex-container>div:nth-child(1) {
+color:firebrick;
+ background-color: blue;
+    
+  
+  font-size: 40px;
+flex-grow:1;    
+    
+}          
+            
+ .flex-container>div:nth-child(2) {
+color:red;
+ background-color: yellow;
+    
+  
+  font-size: 40px;
+flex-grow:2;    
+    
+}    
+            
+</style>
+</head>
+<body>
+
+<div class="flex-container">
+      <div><h4>child 1</h4></div>
+      <div><h4>child 2</h4></div>
+</div>
+
+
+</body>
+</html>
